@@ -1,0 +1,164 @@
+.main{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header{
+    flex-grow: 1;
+    height: auto;
+}
+
+.title{
+    flex-basis: 292px;
+    font-size: 80px;
+    text-decoration: none;
+    color: #000000;
+    font-style: normal;
+}
+
+.part{
+    color: #4BCAFF;
+}
+
+.top{
+    /*flex-basis: 1280px;*/
+    background-color: #35444F;
+    color: #FFFFFF;
+    font-size: 24px;  
+    text-align: center;
+    margin-top: 45px;
+}
+
+.top ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0 auto;
+}
+
+.top li{
+    flex-grow: 1;
+
+}
+
+.top a{
+    text-decoration: none;
+    display: block;
+    padding-top: 26px;
+    padding-bottom: 21px;
+}
+
+.top a:hover{
+    padding-top: 26px;
+    padding-bottom: 21px;
+    background-color:#222F3A;
+}
+
+.menu{
+    flex-flow: 1;
+}
+
+.table{
+    border: solid #35444F 1px; 
+    font-size: 30px;
+    color: #495863;
+    width: 344px;
+    height: 399px;
+    margin-bottom: 0;
+    margin-right: 48px;
+}
+
+.table ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.table a{
+    display: block;
+    padding: 17px 44px;
+}
+
+.table a:hover{
+    background-color: #DBDBDB;
+    color: #000000;
+    padding: 17px 69px;
+}
+
+.long a:hover{
+    font-size: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.menu{
+    display: flex;
+    margin-top: 51px;
+}
+
+.img {
+    border: solid 1px #35444F;
+    padding: 60px 268px 60px 297px;
+}
+
+.content {
+    flex-basis: 815px;
+    margin-bottom: 51px;
+}
+
+.p1{
+    width:815px;
+    display: inline-block;
+    height: 114px;
+    font-size: 18px;
+    color: #2C2C2C;
+    margin-left: 30px;
+}
+
+.p2{
+    width:815px;
+    display: inline-block;
+    height: 109px;
+    font-size: 18px;
+    color: #2C2C2C;
+    margin-left: 30px;
+}
+
+.bottom{
+    font-size: 28px;
+    color: #0C1927;
+    background-color: #B4B7BA;
+    flex-grow: 1;
+    margin-bottom: 30px;
+}
+
+.bottom ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0 auto;
+}
+
+.bottom a{
+    display: block;
+    padding: 10px;
+    padding-top: 22px;
+    padding-bottom: 21px;
+}
+
+.bottom a:hover{
+    text-decoration: underline;
+    color: #3181A6;
+}
+
+.not a{
+   padding-left: 50px;
+}
+
+.not a:hover{
+    text-decoration: none;
+    color:#0C1927;
+}
